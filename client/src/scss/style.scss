@@ -1,0 +1,27 @@
+@import "null-style";
+
+@import "components/all";
+
+// Font Roboto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap&subset=cyrillic-ext');
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  &._lock {
+    overflow: hidden;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}

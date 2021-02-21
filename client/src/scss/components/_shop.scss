@@ -1,0 +1,17 @@
+.shop {
+
+  .type-bar {
+    margin: 30px;
+    width: 200px;
+    border: 1px solid #CFCFCF;
+    border-radius: 4px;
+    .type-item {
+      font-size: 16px;
+      padding: 20px;
+      border-bottom: 1px solid #CFCFCF;
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}
